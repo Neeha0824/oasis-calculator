@@ -1,0 +1,132 @@
+.Background{
+    display: block;
+    height: 650px;
+    width: 300px;
+    background-image: linear-gradient(30deg,#660000,#4d004d);
+    padding: 5px;
+    border: 10px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px 10px 10px 10px rgba(128, 128, 128, 0.416);
+}
+
+.Notch{
+    height: 25px;
+    width: 150px;
+    background-color: black;
+    border: 2px black solid;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.HomeButton{
+    display: inline-block;
+    margin-top: 15px;
+    margin-right: auto;
+    color: black;
+    font-size: larger;
+}
+
+.Name{
+    color: rgba(76, 192, 224, 0.73);;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 15px;
+    height: 10px;
+    display: block;
+}
+
+
+
+.Icon{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.Button1{
+    height: 60px;
+    width:60px;
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    color: rgba(138, 76, 76, 0.73);
+    font-size: 30px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.Button1:hover{
+    color: black;
+    background-color: rgba(138, 76, 76, 0.73);
+}
+
+.Button2{
+    height: 60px;
+    width:60px;
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    color: rgba(100, 205, 177, 0.73);
+    font-size: 30px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.Button2:hover{
+    color: black;
+    background-color: rgba(100, 205, 177, 0.73);
+}
+
+.Button3{
+    height: 60px;
+    width:60px;
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: black;
+    color: rgba(76, 192, 224, 0.73);
+    font-size: 30px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.Button3:hover{
+    color: black;
+    background-color: rgba(76, 192, 224, 0.73);
+}
+
+.Button4{
+    height: 60px;
+    width:60px;
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(100, 205, 177, 0.73);
+    color: black;
+    font-size: 30px;
+    font-family: cursive;
+    cursor: pointer;
+}
+
+.Button4:hover{
+    color: rgba(100, 205, 177, 0.73);
+    background-color: black;
+}
+
+.inputnumbercal{
+    background-image: linear-gradient(30deg,#660000,#4d004d);
+    margin-top: 20px;
+    font-size: 45px;
+    height: 120px;
+    width: 290px;
+    border: #4d004d 2px solid;
+    color: rgba(100, 205, 177, 0.73);;
+}

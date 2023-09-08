@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Calculator
+        </title>
+        <link href="calculator.css" rel="Stylesheet">
+    </head>
+    <style>
+        body{
+            background-color: white;
+            background-repeat: no-repeat;
+        }
+    </style>
+    <script>
+        function handleclick(val)
+        {
+            const inputBox = document.getElementById("inputnumber")
+            inputBox.value = (inputBox.value + val);
+        }
+
+        function clearscreen()
+        {
+            const inputBox = document.getElementById("inputnumber")
+            inputBox.value = "";
+        }
+
+        function calculate()
+        {
+            const inputBox = document.getElementById("inputnumber")
+            const ans = eval(inputBox.value);
+            inputBox.value = ans
+        }
+    </script>
+    <body>
+        <div class="Background">
+            <div class="Notch">
+                    
+            </div>
+            <div>
+                <input type="text" id="inputnumber" class="inputnumbercal" style="text-align: right;">
+            </div>
+            <div>
+                <img src="https://cdn-icons-png.flaticon.com/512/2521/2521466.png" alt="Timer" height="30px" class="Icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/1009/1009305.png" alt="Timer" height="30px"  class="Icon">
+                <img src="https://cdn-icons-png.flaticon.com/512/1628/1628984.png" alt="Timer" height="22px" class="Icon"> 
+                <img src="https://cdn-icons-png.flaticon.com/512/7709/7709946.png" alt="Timer" height="25px" style="margin-left: 120px;">
+            </div>
+            <hr color="black">
+            <div>
+                <button class="Button1" onclick="clearscreen()">C</button>
+                <button class="Button2" onclick="handleclick('()')">()</button>
+                <button class="Button2" onclick="handleclick('%')">%</button>
+                <button class="Button2" onclick="handleclick('/')">÷</button>
+            </div>
+            <div>
+                <button class="Button3" onclick="handleclick(7)">7</button>
+                <button class="Button3" onclick="handleclick(8)">8</button>
+                <button class="Button3" onclick="handleclick(9)">9</button>
+                <button class="Button2" onclick="handleclick('*')">X</button>
+            </div>
+            <div>
+                <button class="Button3" onclick="handleclick(4)">4</button>
+                <button class="Button3" onclick="handleclick(5)">5</button>
+                <button class="Button3" onclick="handleclick(6)">6</button>
+                <button class="Button2" onclick="handleclick('-')">-</button>
+            </div>
+            <div>
+                <button class="Button3" onclick="handleclick(1)">1</button>
+                <button class="Button3" onclick="handleclick(2)">2</button>
+                <button class="Button3" onclick="handleclick(3)">3</button>
+                <button class="Button2" onclick="handleclick('+')">+</button>
+            </div>
+            <div>
+                <button class="Button3" onclick="handleclick('+/-')">+/-</button>
+                <button class="Button3" onclick="handleclick(0)">0</button>
+                <button class="Button3" onclick="handleclick('.')">.</button>
+                <button class="Button4" onclick="calculate()">=</button>
+            </div>
+            <div class="HomeButton">
+                <font style="margin-left: 50px; font-size: larger; font-weight: bold;">lll</font>
+                <font style="margin-left:75px; font-size: larger; font-weight: bolder;">▢</font>
+                <font style="margin-left: 70px; font-size: larger; font-weight: bold;">⟪</font>
+            </div>
+        </div>
+    </body>
+</html>
